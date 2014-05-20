@@ -6,14 +6,15 @@ module.exports = function(grunt) {
         sass: {
             dist: {
                 options : {
-                    precision : 10
+                    precision : 10,
+                    style: 'compressed'
                 },
                 files: [{
                     expand : true,
                     cwd : 'web/assets-dev/css/',
                     src : ['*.scss'],
                     dest : 'web/assets/css/',
-                    ext : '.css'
+                    ext : '.min.css'
                 }]
             }
         },
