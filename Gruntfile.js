@@ -55,7 +55,7 @@ module.exports = function(grunt) {
                     'web/assets-dev/js/*.js',
                     'web/assets-dev/js/modules/*.js'
                 ],
-                tasks : ['sass', 'cssmin', 'minified']
+                tasks : ['sass', 'cssmin', 'uglify']
             }
         },
         browser_sync: {
