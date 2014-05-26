@@ -1,7 +1,9 @@
 /* + Mixin imports */
+@import "mixins";
 /* = Mixin imports */
 
 /* + Function imports */
+@import "component-animations";
 /* = Function imports */
 
 /* + Variablen (Farben, Fonts, etc) */
@@ -17,4 +19,6 @@
 /* = Styles höherer Ordnung (OOCSS – Nicht-modulspezifische oder modulübergreifende Styles) */
 
 /* + Modul Styles */
+@import "accordion";
+@import "responsive-data-table";
 /* = Modul Styles */
